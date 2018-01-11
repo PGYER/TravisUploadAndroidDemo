@@ -45,7 +45,7 @@ after_success:
 - jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $HOME/pgyer.jks
   -storepass $storepass -keypass $keypass app-release-unsigned.apk pgyer
 - jarsigner -verify app-release-unsigned.apk
-- ${ANDROID_HOME}/build-tools/26.0.2/zipalign -v 4 app-release-unsigned.apk yourapp.apk"
+- ${ANDROID_HOME}/build-tools/26.0.2/zipalign -v 4 app-release-unsigned.apk yourapp.apk
 after_script:
 - set -e
 - $TRAVIS_BUILD_DIR/pgyer_upload.sh "${TRAVIS_BUILD_DIR}/app/build/outputs/apk/release/yourapp.apk"
