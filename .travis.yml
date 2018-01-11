@@ -8,8 +8,8 @@ env:
   - ANDROID_BUILD_TOOLS=26.0.2
   - ADB_INSTALL_TIMEOUT=5
   - ANDROID_ABI=google_apis/armeabi-v7a
-  - secure: lYjtvN8F36g4QtmS7448TpUw/Vj//3JZXGrE62RN79zK9yWSz2lMsTpB3qTTmrrndust4pGLHyuu36YOMu3dQiuDpEAMybRH2Ll6QbWD1geII0sQs/0eevGvwqg6sNBvx3Ja31zuFrwNtcuZSMK+0coo6n+eFdovZsbo9W17VAHNuqfZmuIekSX1BAqsT1Kk2wGM70qfkdz2p2XAjBOjpnIsE/Axn4p1RPHC4YrqIbZ4u5uDoJGQkm/s1JmjoaUv6l+8Zlattj7SD8sfcLVREvGs1tAZxMUdwNaU6mlWblb2/igKvDBlvlo+flsHL21q+a2V6rkTfq9crZ8B0tLU3+rdMAsJcILQbuB+UFd7Uz8uC6HwzPRHDhN5IJCjn56KxDQz+9/rDBPH+QE2LK0AWtfKp14elf1S16Om/OnvDyoes4svYZkKfmJw+yDgsiZPhTKKErD+kGwghbWcZBdLmlCQMEqYImSvjqVtwYH8ZfC/rR7dBlA8wkFAYbLZQ4SvKnUldS0WQZ9etDZcbELhVzOMe89tGAYYGgaV9/P4AJFKu09nx67/hTsJgLRCIe5BvhWC/tBvKS1ZEcIPPhO24Vsb6HLPUAfPK5+hE+KG2fpwIjKu90Gw0r8S3nnPFsTnWPujQmXajtzgxJPyn7CyG3J/FhVDJ7Sng/N5FvXqY9U=
-  - secure: C1ikdPZ9FJEzdc7hl4wsBiP4mz0pIVn0uiYqpq4VVTGH47Qm+5N8fYp2rNkRhWn1iOcBp9sPclWxAtX8EF4uEO+wkdv/nyUcGct7SKVWeQmsZGsDj8preeNcqjsxooJBCyL/yh4wWRUGKy0Hxmg/J13gTHywi9pPgcrTMNnVBt0U5eLKb7QVtAWG2aOhoiAZo98f53Cykkzpnnk/FYfNUmCcOgaJSbelb358HyjBZgdkuXl8l4nuArR2GDBbFhJGDzIKw1FLyVZWvPmldEH7cm6iEdiBP+uc98Z9Yqpq9G8I2gx9b4qZHyQOMrb/DVGxEFb/4JxXVYg+gA4Kn0Q/dgAhiSvlL8cI/7vQESSKNzFyuJ7ezof42P4UQAvbSuCtFnluvT3jI/iW4VK6eqQD735YurGoMjJQ5maL20ZcD+My5uvYtXbg4uRF9APxvn+37EJYheGDPK5abDB7XE4PXsJW1wcskzlWHhFzKRSYSnljEl6rVjGWSTyp2w+wBojVpaBTaeGnsEWdXpmOXibxkq7olseXoZ3EUghaHxCtNSX1G1ZrtRVA/lkbA2g+PQ1adYezAVw0+9zxi46iwTwNjwTeEnQmvFH1WRbZMGhFTj/6u+j5lRbnc4wNMU3iTBKzTo1A7aM3JhLQMEueiqBMRdYqmzcoj8fR2x2yoGAi084=
+  - secure: Fa51jpsXPDBmTgmkT6qJQ6qnbkybJcd/iafSpcbshHszQrQv1FNUBnglQYKhHdVBrQ2lrGJfDbvTzxjXvRFUBjvLIUc3Fo7kWs8BAiD6k7ddgcHO2I3iScpuvXNXqEQjwYJf8bPck8WzKm9i+xC6aB67SDrq+jGjm4t94uG2wvu7k7i4TOnyM5K9JdC6NR/pYtY41QcNoz2WQuXDJerC+OB1zO3oKTXHN/jf1SE63uLlVCbJ+QVSaHoYnvGiJZNA6fkjcxZOXqUyLn666WcfMqZd7PhvdkKmEe4KEsuaI6HrUKRfOkazcaxAKTcYdZ600rAB7FPu5ZVrhTvj/9w4a40Zsum7xM3sNij7BMyMxcKcRLnsQJg5Wje74vxccnfayWFQdK2JpjN6awlsOPQS++BDa9jbA6Ggcnx0KWs8DYi65wuAUkLYTAwRHrroAkriTXCYRWO5y4Gqp7isd+UiuQSd8VTLIktlZXsVJ67wrRin0A8p4tq4GomqNCQdXJ5CSqW2lXusxBWrAh9WcXLRy3+Z2fq6BywAvpdqTauJmSw1yxTyjnrQ4F3qnFdyP3KzT0Shlb/M7os6Wz9Iah+SfPvqQGg9f3xKhEXU1cq4PJ7nPDMssz4Vm4K/xmeyZh9o6bSmqzGyETBDYgDAqLimohlvgYZJqHRkRnFxWxztNKs=
+  - secure: R6FyAvU4LstOhVw7WdwaWonG9Ini/lkS1NDp3gGEr+49XgxBMGI1iM10TEWR58W+vS/04IImHspL8AVN43VlG/0DJyjWL9Fq36cB1QGPtWLdyXIszony5fIpsx4TzXubMVUUWwXZ6SMk0caXqeMVdB3CBQgg98yp7D/u9HciDwJAKIOBKS3NDIQy0IP2SOYIu0ZPgmwbFwFIQQQpXWa8v4+QPenb9QKIJ2PBr24HcvaXvt947gEJx9ycIz0P55wfWLXuYJNmd5Nl4PQ0vzy4FS46AECfWlaLDgyfuD+1b14V1xFJJg+NiHYpo5eh4ETHWqlZMlDiULdWDlj2fZLKuRpBMiYbCfbebgiFCBrWmu8WEALH7T3TGZClIBCkTKv+mxykHo9KBXdFY3F0ozFy7G4QuKinjwQv4e3NTfVZgpsgNdIMMmkKJJOwiZ4toI7eCbge0t6nIV5IBcOivg7OVUkuQDElZOFgWol+xWDR9cFTRlZ8FLsJ8keGxfjIiRR+R4jgGdb7fCXykbP6s+j8CaAVgqKTe+BXnG/odAZ1cZIZN7OFZ3gxjUd9cIZzVb3rR2rDjfeuX9ON7Htrb+qiogYIEiBF2ShBh/gVm3UWnlt/0HN6BNnGfo/ajfTKhgsec0CEBtrbm8c0i2tCD88R70C9cZZLN48HocahaNVMidA=
 android:
   components:
   - tools
@@ -27,28 +27,17 @@ android:
   - google-gdk-license-.+
 before_install:
 - openssl aes-256-cbc -K $encrypted_34598bd135b1_key -iv $encrypted_34598bd135b1_iv
-  -in demo.jks.enc -out demo.jks -d
+  -in pgyer.jks.enc -out pgyer.jks -d
 - cd $TRAVIS_BUILD_DIR
 - wget -c https://raw.githubusercontent.com/Pgyer/TravisFile/master/pgyer_upload.sh
   -O pgyer_upload.sh
-# before_cache:
-# - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
-# - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
-# cache:
-#   directories:
-#   - "$HOME/.gradle/caches/"
-#   - "$HOME/.gradle/wrapper/"
-# before_script:
-# - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
-# - emulator -avd test -no-skin -no-audio -no-window &
-# - android-wait-for-emulator
 script:
 - "./gradlew assembleRelease"
 after_success:
-- cp $TRAVIS_BUILD_DIR/demo.jks $HOME
+- cp $TRAVIS_BUILD_DIR/pgyer.jks $HOME
 - cd $TRAVIS_BUILD_DIR/app/build/outputs/apk/release
-- jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $HOME/demo.jks
-  -storepass $storepass -keypass $keypass app-release-unsigned.apk demo
+- jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $HOME/pgyer.jks
+  -storepass $storepass -keypass $keypass app-release-unsigned.apk pgyer
 - jarsigner -verify app-release-unsigned.apk
 - "${ANDROID_HOME}/build-tools/26.0.2/zipalign -v 4 app-release-unsigned.apk yourapp.apk"
 after_script:
