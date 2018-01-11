@@ -15,7 +15,6 @@ android:
   - tools
   - platform-tools
   - build-tools-$ANDROID_BUILD_TOOLS
-  - build-tools-24.0.2
   - android-$ANDROID_API
   - android-$EMULATOR_API
   - extra-google-m2repository
@@ -32,8 +31,13 @@ before_install:
 - cd $TRAVIS_BUILD_DIR
 - wget -c https://raw.githubusercontent.com/Pgyer/TravisFile/master/pgyer_upload.sh
   -O pgyer_upload.sh
+
+- wget https://services.gradle.org/distributions/gradle-4.1-all.zip
+- unzip gradle-4.1-all.zip
+- export GRADLE_HOME=$PWD/gradle-4.1
+- export PATH=$GRADLE_HOME/bin:$PATH
 script:
-- "./gradlew assembleRelease"
+- gradle assembleRelease
 after_success:
 - cp $TRAVIS_BUILD_DIR/pgyer.jks $HOME
 - cd $TRAVIS_BUILD_DIR/app/build/outputs/apk/release
