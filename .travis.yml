@@ -31,20 +31,15 @@ before_install:
 - cd $TRAVIS_BUILD_DIR
 - wget -c https://raw.githubusercontent.com/Pgyer/TravisFile/master/pgyer_upload.sh
   -O pgyer_upload.sh
-
-- wget https://services.gradle.org/distributions/gradle-4.1-all.zip
-- unzip gradle-4.1-all.zip
-- export GRADLE_HOME=$PWD/gradle-4.1
-- export PATH=$GRADLE_HOME/bin:$PATH
 script:
-- gradle assembleRelease
+- "./gradlew assembleRelease"
 after_success:
 - cp $TRAVIS_BUILD_DIR/pgyer.jks $HOME
 - cd $TRAVIS_BUILD_DIR/app/build/outputs/apk/release
 - jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $HOME/pgyer.jks
   -storepass $storepass -keypass $keypass app-release-unsigned.apk pgyer
 - jarsigner -verify app-release-unsigned.apk
-- $ANDROID_HOME/build-tools/24.0.2/zipalign -v 4 app-release-unsigned.apk yourapp.apk
+# - ${ANDROID_HOME}/build-tools/24.0.2/zipalign -v 4 app-release-unsigned.apk yourapp.apk"
 after_script:
 - set -e
 - $TRAVIS_BUILD_DIR/pgyer_upload.sh "${TRAVIS_BUILD_DIR}/app/build/outputs/apk/release/yourapp.apk"
