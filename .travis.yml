@@ -8,7 +8,8 @@ env:
   - ANDROID_BUILD_TOOLS=26.0.2
   - ADB_INSTALL_TIMEOUT=5
   - ANDROID_ABI=google_apis/armeabi-v7a
-  
+  - secure: TXhaOlCWgHDQV0z5bJZbRbGcqHCG4GXG4iGLMCPYgoPM9lxrir9baYWJxc8/2krZGW0AbjJYtMESkOe3QuMHo5oPK68MkXFcvRRbugK2wQsJsY0rIAR6FAuNVTxX8/6wsYC4wVzEAesqkn2ziJqbPfeGOwTpRDt3hZ8FXpar8gYN9ZtDFwuW7S7Y5Cdy8M/UJ/C0Yz1XGYYip49S656fH6JzEOU+61DayV1kcEqs3G22U4O0PHH8xhFWwdECCEvRJzfX4dHKtSfKbGnANSAgZJXwRILKgw13Gz7b171Ilfj7pWY9jm8PMFcZh2Tke2xIB2AqVv9xl1+iF3/wOeEJk77ssP3ATRQ6EhCnkY65Id+We+XgtnNLjvRuTE67IjJezWLp5wfGpjqbtrff2aqr4MyzK/2hNkBHipF2DHrbBN3mmB9vqqDVgWvbwo0MiTNsrLPNM2AZaIgDFEXkidd/MR5Vu2HEuLttpPXokpdTVPGCNMSv/8248tkmRrKwjxH8ZbybHszFue9WW0WxUQEUbVkLgqcMbgPxQfo+cPiw3U9m0dlM6b45ohvFjAPZ7G9l9gIK0NYkD+81nlvQ2YR8oAHd3Y+NHlZPin0OuiidOfv32ldbvCbaX3uH+VwJRqZrFna2OOkyfr186THfZRI6Iu4Y2dAme1Nmt1s+WXUqBJY=
+  - secure: AfDl1AGYM6xmadqLRSIL+7qv/QptNdIDNC93DqoKLIYlVjlJAzTnmYNZdLmMAOMukgEeimEK6wPbGQy9zWHd6UxiWX7rPGPro7mLdkeTHAjeacS6M15FJ5r3s4nVN3ALPxiGJOzARsUjqkbSYHufOtmJYVgvzkduKqtV/oPonEutYV49DnAyC6/MLX1daxchEybSTsNB1/LXNOWHFRQ/r5qc3WMdqfQIQp0RrGUVe9+yYKP79L7BzVgJnyFIBXQWIyi8bSofh8RBd4nkhbR3Nk0Q8CcOzXgak+1Lp83Ao+vtHG76ARpwm1HyMEZz8cVORQDxrzVDd7zRjd4cbsmfT2zVybOJr8VWVfyzt8Yi0jnZvqFFpOvGx6SEeC1ON6/zmU3W9cE2Nqgt8QpUna6g0Jnxcf7ZBafUoQbTjWrttNaGSb9z7IONCLwk08Q6wL9W+zSo8iO5EK1UuRTDg6kSobMPsskPI+dp16aVa0I/vCXWWuVFX8KEOcrtqL7NU1eeqWViL+G8SJZWvBzvcowhOnkUaXdmJjxy7coB/ZgIYWEUOPMVbWjgc0k187X9/IhtTz2dDwhDRJBfez0FJVYdx+4Yo4/oGcnUjm/v38d2FZOZbGqCpXLWfe9Pn92Amu1/v+mPeUOmTeUA/26gYnKr07rrkIdTCVf92NKfpeg50uM=
 android:
   components:
   - tools
@@ -20,7 +21,6 @@ android:
   - extra-android-m2repository
   - sys-img-armeabi-v7a-android-$ANDROID_API
   - sys-img-armeabi-v7a-android-$EMULATOR_API
-
   licenses:
   - android-sdk-preview-license-.+
   - android-sdk-license-.+
@@ -29,7 +29,8 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_34598bd135b1_key -iv $encrypted_34598bd135b1_iv
   -in demo.jks.enc -out demo.jks -d
 - cd $TRAVIS_BUILD_DIR
-- wget -c https://raw.githubusercontent.com/Pgyer/TravisFile/master/pgyer_upload.sh -O pgyer_upload.sh
+- wget -c https://raw.githubusercontent.com/Pgyer/TravisFile/master/pgyer_upload.sh
+  -O pgyer_upload.sh
 before_cache:
 - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
 - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
