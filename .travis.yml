@@ -26,10 +26,10 @@ android:
   - android-sdk-license-.+
   - google-gdk-license-.+
 before_install:
-- wget https://services.gradle.org/distributions/gradle-4.1-all.zip
-- unzip gradle-4.1-all.zip
-- export GRADLE_HOME=$PWD/gradle-4.1
-- export PATH=$GRADLE_HOME/bin:$PATH
+# - wget https://services.gradle.org/distributions/gradle-4.1-all.zip
+# - unzip gradle-4.1-all.zip
+# - export GRADLE_HOME=$PWD/gradle-4.1
+# - export PATH=$GRADLE_HOME/bin:$PATH
 - openssl aes-256-cbc -K $encrypted_34598bd135b1_key -iv $encrypted_34598bd135b1_iv
   -in pgyer.jks.enc -out pgyer.jks -d
 - cd $TRAVIS_BUILD_DIR
@@ -37,8 +37,8 @@ before_install:
   -O pgyer_upload.sh
 - chmod +x pgyer_upload.sh
 script:
-# - "./gradlew assembleRelease"
--  gradle assembleRelease
+- "./gradlew assembleRelease"
+# -  gradle assembleRelease
 after_success:
 - cp $TRAVIS_BUILD_DIR/pgyer.jks $HOME
 - cd $TRAVIS_BUILD_DIR/app/build/outputs/apk/release
