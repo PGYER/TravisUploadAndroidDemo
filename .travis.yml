@@ -31,18 +31,17 @@ before_install:
 - cd $TRAVIS_BUILD_DIR
 - wget -c https://raw.githubusercontent.com/Pgyer/TravisFile/master/pgyer_upload.sh
   -O pgyer_upload.sh
-before_cache:
-- rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
-- rm -fr $HOME/.gradle/caches/*/plugin-resolution/
-cache:
-  directories:
-  - "$HOME/.gradle/caches/"
-  - "$HOME/.gradle/wrapper/"
-before_script:
-- echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
-- emulator -avd test -no-skin -no-audio -no-window &
-- android-wait-for-emulator
-- adb shell input keyevent 82
+# before_cache:
+# - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
+# - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+# cache:
+#   directories:
+#   - "$HOME/.gradle/caches/"
+#   - "$HOME/.gradle/wrapper/"
+# before_script:
+# - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
+# - emulator -avd test -no-skin -no-audio -no-window &
+# - android-wait-for-emulator
 script:
 - "./gradlew assembleRelease"
 after_success:
