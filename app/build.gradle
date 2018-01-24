@@ -19,23 +19,25 @@ android {
         }
     }
     buildTypes {
+
+
         release {
             minifyEnabled false
-            zipAlignEnabled false
-            shrinkResources false
+//            zipAlignEnabled false
+//            shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.release
-            applicationVariants.all { variant ->
-                if (variant.buildType.name.equals('release')) {
-                    variant.outputs.each { output -> def outputFile = output.outputFile
-                        if (outputFile != null && outputFile.name.endsWith('.apk')) {
-                            def fileName = "${releaseTime()}_com.andli.myproject_${defaultConfig.versionName}.apk"
+//            signingConfig signingConfigs.release
+//            applicationVariants.all { variant ->
+//                if (variant.buildType.name.equals('release')) {
+//                    variant.outputs.each { output -> def outputFile = output.outputFile
+//                        if (outputFile != null && outputFile.name.endsWith('.apk')) {
+//                            def fileName = "${releaseTime()}_com.andli.myproject_${defaultConfig.versionName}.apk"
 //                            output.outputFile = new File(outputFile.parent, fileName)
-                            outputFileName = "${variant.name}-${variant.versionName}.apk"
-                        }
-                    }
-                }
-            }
+//                            outputFileName = "${variant.name}-${variant.versionName}.apk"
+//                        }
+//                    }
+//                }
+//            }
         }
     }
     lintOptions {//设置编译的lint开关，程序在buid的时候，会执行lint检查，有任何的错误或者警告提示，都会终止构建
@@ -54,4 +56,3 @@ dependencies {
 def releaseTime() {
     return new Date().format("yyyyMMdd", TimeZone.getTimeZone("UTC"))
 }
-
