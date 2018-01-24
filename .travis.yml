@@ -7,8 +7,8 @@ env:
   - EMULATOR_API=21
   - ANDROID_BUILD_TOOLS=26.0.2
   - ADB_INSTALL_TIMEOUT=5
-  - secure: Fa51jpsXPDBmTgmkT6qJQ6qnbkybJcd/iafSpcbshHszQrQv1FNUBnglQYKhHdVBrQ2lrGJfDbvTzxjXvRFUBjvLIUc3Fo7kWs8BAiD6k7ddgcHO2I3iScpuvXNXqEQjwYJf8bPck8WzKm9i+xC6aB67SDrq+jGjm4t94uG2wvu7k7i4TOnyM5K9JdC6NR/pYtY41QcNoz2WQuXDJerC+OB1zO3oKTXHN/jf1SE63uLlVCbJ+QVSaHoYnvGiJZNA6fkjcxZOXqUyLn666WcfMqZd7PhvdkKmEe4KEsuaI6HrUKRfOkazcaxAKTcYdZ600rAB7FPu5ZVrhTvj/9w4a40Zsum7xM3sNij7BMyMxcKcRLnsQJg5Wje74vxccnfayWFQdK2JpjN6awlsOPQS++BDa9jbA6Ggcnx0KWs8DYi65wuAUkLYTAwRHrroAkriTXCYRWO5y4Gqp7isd+UiuQSd8VTLIktlZXsVJ67wrRin0A8p4tq4GomqNCQdXJ5CSqW2lXusxBWrAh9WcXLRy3+Z2fq6BywAvpdqTauJmSw1yxTyjnrQ4F3qnFdyP3KzT0Shlb/M7os6Wz9Iah+SfPvqQGg9f3xKhEXU1cq4PJ7nPDMssz4Vm4K/xmeyZh9o6bSmqzGyETBDYgDAqLimohlvgYZJqHRkRnFxWxztNKs=
-  - secure: R6FyAvU4LstOhVw7WdwaWonG9Ini/lkS1NDp3gGEr+49XgxBMGI1iM10TEWR58W+vS/04IImHspL8AVN43VlG/0DJyjWL9Fq36cB1QGPtWLdyXIszony5fIpsx4TzXubMVUUWwXZ6SMk0caXqeMVdB3CBQgg98yp7D/u9HciDwJAKIOBKS3NDIQy0IP2SOYIu0ZPgmwbFwFIQQQpXWa8v4+QPenb9QKIJ2PBr24HcvaXvt947gEJx9ycIz0P55wfWLXuYJNmd5Nl4PQ0vzy4FS46AECfWlaLDgyfuD+1b14V1xFJJg+NiHYpo5eh4ETHWqlZMlDiULdWDlj2fZLKuRpBMiYbCfbebgiFCBrWmu8WEALH7T3TGZClIBCkTKv+mxykHo9KBXdFY3F0ozFy7G4QuKinjwQv4e3NTfVZgpsgNdIMMmkKJJOwiZ4toI7eCbge0t6nIV5IBcOivg7OVUkuQDElZOFgWol+xWDR9cFTRlZ8FLsJ8keGxfjIiRR+R4jgGdb7fCXykbP6s+j8CaAVgqKTe+BXnG/odAZ1cZIZN7OFZ3gxjUd9cIZzVb3rR2rDjfeuX9ON7Htrb+qiogYIEiBF2ShBh/gVm3UWnlt/0HN6BNnGfo/ajfTKhgsec0CEBtrbm8c0i2tCD88R70C9cZZLN48HocahaNVMidA=
+  - secure: QTFEpXIf2vdpflVcR7WWiBUwehqAjTlKo7Nh/rk93SpTpqbBsxlyCiMcP3fAXblKmcDnwU3xFngaeBg/8oRNcqDOXo2rJGjGhe4vep68Q6qy0eWnBnpScvEvJ2P2SrOb/S58LhnAt8O5R5CiDlEm0Gca3I6dfpOMTjjPbKQUHHW3Or1hyMB7N8/+b9thn11LQ+3cN6dILm7ebTAE6KrS2GSgRhwegbGZ7GSB+XbWiq3nrV1pEo86DQi4ogYypNP5OP1U20jndaa3bovl0zDSAABVWzE7kvzOd+XwZ0MtdAL+os3iLlsF2+5QzzMZb/u21IyoDCYpGs3MK3ws4jWfa4NIREiDh/7DLB3jVR/Ewetp1cJtNExtTuhbk+6UrOn8kkmYUo1K/a2G/HEKGu68YYNFe7QugnGAF+2JnQFAW8waYareDL+jvcFObXxmFp77HBDx7xjCy1xE/AJkRL9iFcxbmhjGx0v7PQ5m/Z5z7cue8Aqb+oCgReXc1ghm7OEz8galJmJ6W3Z7Uou3vBdg2bsnjMC3eD7NEfrhZZiIRuCqwRXXw6RX2W7Sw8n4Aes7wnmemePzO5FpIEzVH/5/5V5CEQ67g9Q3yF4K1T1lEOq8e3Oq1BKhci4a0auWcEk3T/laDNKJh7gsMsxX7qm3trzn9gq0Ge1KMXEmr7uLm6k=
+  - secure: S1d4JlvqsBIfFhTPRefoZytj2IuMdS9iZwoehlOCRl8wRerj6HAk/Prn0HXUTfoCOCVQ4x/+f/Mazq8prfhNSt2DKU4YOhcAToTCQn6stqtyyrHrvxwapKsSsKDK5sZ+wPLqczF3UtQi1s/hcTKZT8gNplUO66LkcpCO7DkkXS03N7EMVFTTLXvR+xb5WkPZjhxxjOnRpwN8vKNAAJ9pm3hTrTMgawoQI/CZ8vkEpWvwS/Av5TeumzXcN+grphwPvSF6DGjf/qR5Zh6OyliUgx6DymRMPU4VYhl6yzYafSSd7wujJY8JcE3Pv14NdlXZhuLGqITMvnRw0LJs+ijD0bI4bay37FCaLZksuUt45HGcSBkkLRlNc89vZWkv7CTnnKYdrTQtWt/3Mxvhp9xrRtqMBVzRdqQFkNoYk2qvZLaHpCq+KxIykJFKEh+NYsN8SNWbt2RauYC6nE12AgcIcFR89aStZeOAXKJ/lL/r3yY5xliy0VVjMK5eobbqqALr4fJGORA7nA91QzZrJZrPVo+QjwAX29e1F0GtmI8FSnbJz27gOj9Djgt2InA2tuIHJNeXThgMYBmyKDbUWuPPQ64J3E4YRjkQj3ORbRXmfQ6tRorZouLlYoc3Wc9HefsWBR/utdOEIYOoMG+SRVQFzY9uZbeBm8vEO5CZFOJwVaI=
 android:
   components:
   - tools
@@ -24,17 +24,11 @@ android:
   - android-sdk-preview-license-.+
   - android-sdk-license-.+
   - google-gdk-license-.+
-# Emulator Management: Create, Start and Wait
 before_script:
-  - echo no | android create avd --force -n test -t android-21 --abi armeabi-v7a
-  - emulator -avd test -no-audio -no-window &
-  - android-wait-for-emulator
-  # - adb shell input keyevent 82 &
+- echo no | android create avd --force -n test -t android-21 --abi armeabi-v7a
+- emulator -avd test -no-audio -no-window &
+- android-wait-for-emulator
 before_install:
-# - wget https://services.gradle.org/distributions/gradle-4.1-all.zip
-# - unzip gradle-4.1-all.zip
-# - export GRADLE_HOME=$PWD/gradle-4.1
-# - export PATH=$GRADLE_HOME/bin:$PATH
 - openssl aes-256-cbc -K $encrypted_34598bd135b1_key -iv $encrypted_34598bd135b1_iv
   -in pgyer.jks.enc -out pgyer.jks -d
 - cd $TRAVIS_BUILD_DIR
@@ -43,16 +37,15 @@ before_install:
 - chmod +x pgyer_upload.sh
 script:
 - "./gradlew assembleRelease"
-# -  gradle assembleRelease
 after_success:
 - cp $TRAVIS_BUILD_DIR/pgyer.jks $HOME
 - cd $TRAVIS_BUILD_DIR/app/build/outputs/apk/release
 - jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $HOME/pgyer.jks
   -storepass $storepass -keypass $keypass app-release-unsigned.apk pgyer
 - jarsigner -verify app-release-unsigned.apk
-- ${ANDROID_HOME}/build-tools/26.0.2/zipalign -v 4 app-release-unsigned.apk yourapp.apk
+- "${ANDROID_HOME}/build-tools/26.0.2/zipalign -v 4 app-release-unsigned.apk yourapp.apk"
 after_script:
 - set -e
 - $TRAVIS_BUILD_DIR/pgyer_upload.sh "${TRAVIS_BUILD_DIR}/app/build/outputs/apk/release/yourapp.apk"
-  "387ed73c8f81fac9be065e0b9ec20eed"
+  "e2dc422e5050e62627308e84e370679e"
 - rm $TRAVIS_BUILD_DIR/pgyer_upload.sh

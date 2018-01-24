@@ -10,11 +10,36 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+    signingConfigs {//签名的配置
+        release {
+            storeFile file("pgyer.jks")
+            storePassword '123456'
+            keyAlias 'pgyer'
+            keyPassword 'pgyer123'
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+            applicationVariants.all { variant ->
+                if (variant.buildType.name.equals('release')) {
+                    variant.outputs.each { output -> def outputFile = output.outputFile
+                        if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                            def fileName = "${releaseTime()}_com.andli.myproject_${defaultConfig.versionName}.apk"
+//                            output.outputFile = new File(outputFile.parent, fileName)
+                            outputFileName = "${variant.name}-${variant.versionName}.apk"
+                        }
+                    }
+                }
+            }
         }
+    }
+    lintOptions {//设置编译的lint开关，程序在buid的时候，会执行lint检查，有任何的错误或者警告提示，都会终止构建
+        abortOnError false
     }
 }
 
@@ -26,3 +51,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 }
+def releaseTime() {
+    return new Date().format("yyyyMMdd", TimeZone.getTimeZone("UTC"))
+}
+
